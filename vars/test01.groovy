@@ -1,13 +1,4 @@
 def helloworld() {
-    pipeline {
-        agent any
-        stages {
-            stage('Hello') {
-                steps {
-                    echo 'Hello World'
-                    echo 'testttt'
-                }
-            }
-        }
-   }
+    echo 'Hello World'
+    echo 'testttt'
 }
