@@ -1,4 +1,3 @@
-def helloworld() {
-    echo 'Hello World'
-    echo 'testttt'
+def call(String name = 'human') {
+    echo "Hello, ${name}."
 }
