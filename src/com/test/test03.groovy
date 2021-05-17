@@ -1,3 +1,4 @@
+package com.test
 class Utilities {
   def test() {
     echo "ZAWARUDO!!!"
