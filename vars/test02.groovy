@@ -1,6 +1,6 @@
 def call(String name = 'human') {
     echo "test, ${name}."
-    String res="QQ"
+    def res="sh "pwd""
+    echo "${res}"
     return res
 }
-return "A"
