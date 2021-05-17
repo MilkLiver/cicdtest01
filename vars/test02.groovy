@@ -3,7 +3,3 @@ def call(String name = 'human') {
     String res=sh "pwd"
     return res
 }
-def test(String name = 'human') {
-    echo "ZAWARUDO!!!"
-    return "KO NO DIO DA!!"
-}
